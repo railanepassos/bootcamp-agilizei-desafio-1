@@ -43,7 +43,7 @@ jobs:
 
       # Generate report
       - run: npm run report:merge
-      - run: report:mocha
+      - run: npm run report:mocha
 
       # Publish in GithubPages
       - name: Deploy to GitHub Pages
